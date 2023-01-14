@@ -87,19 +87,25 @@ function UxUi() {
           <div className="imgBox">
             <img
               src={`${process.env.PUBLIC_URL}/images/banner4.png`}
-              alt="배너3"
+              alt="배너4"
             />
           </div>
           <div className="imgBox">
             <img
               src={`${process.env.PUBLIC_URL}/images/banner5.png`}
-              alt="배너3"
+              alt="배너5"
             />
           </div>
           <div className="imgBox">
             <img
               src={`${process.env.PUBLIC_URL}/images/banner6.png`}
-              alt="배너3"
+              alt="배너6"
+            />
+          </div>
+          <div className="imgBox">
+            <img
+              src={`${process.env.PUBLIC_URL}/images/banner7.png`}
+              alt="배너7"
             />
           </div>
         </SlideSection>
