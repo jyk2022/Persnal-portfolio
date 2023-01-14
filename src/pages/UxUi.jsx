@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 function UxUi() {
   const settings = {
     dots: true,
-    fade: true,
+    arrow: true,
     infinite: true,
     speed: 2000,
     slidesToShow: 1,
