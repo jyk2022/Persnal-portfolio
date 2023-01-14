@@ -25,26 +25,43 @@ function Web() {
               />
             </div>
             <div className="webtext">
-              <p>프로젝트명: 놀이기구 추천사이트</p>
-              <p>제작기간: 2022.11.14 ~ 2022.11.18</p>
-              <p>참여인원: 4명</p>
               <p>
-                제작내용: 와이어프레임(기여도25%), 게시글 등록 및
+                <span>프로젝트명:</span> 놀이기구 추천사이트
+              </p>
+              <p>
+                <span>제작기간:</span> 2022.11.14 ~ 2022.11.18
+              </p>
+              <p>
+                <span>참여인원:</span> 4명
+              </p>
+              <p>
+                <span>제작내용:</span> 와이어프레임(기여도25%), 게시글 등록 및
                 삭제(기여도100%), 댓글 등록 및 삭제
               </p>
-              <p>제작스킬: 피그마, html, 제이쿼리, 파이썬, 몽고db</p>
+              <p>
+                <span>제작스킬:</span> 피그마, html, 제이쿼리, 파이썬, 몽고db
+              </p>
             </div>
           </article>
           <article className="web2">
             <div className="webtext">
-              <p>프로젝트명: 프로젝트명: 놀이기구 추천사이트</p>
-              <p>제작기간: 2022.11.14 ~ 2022.11.18</p>
-              <p>참여인원: 4명</p>
               <p>
-                제작내용: 와이어프레임(기여도25%), 게시글 등록 및
-                삭제(기여도100%), 댓글 등록 및 삭제
+                <span>프로젝트명:</span> 나만의 투두리스트
               </p>
-              <p>제작스킬: 피그마, html, 제이쿼리, 파이썬, 몽고db</p>
+              <p>
+                <span>제작기간:</span>2022.12.05 ~ 2022.12.06
+              </p>
+              <p>
+                <span>참여인원:</span> 1명
+              </p>
+              <p>
+                <span>제작내용:</span> 홈페이지 및 CSS 투두리스트 추가, 삭제,
+                완료 기능 구현
+              </p>
+              <p>
+                <span>제작스킬:</span> 리액트(자바스크립트), CSS,
+                스타일드컴포넌트, 리덕스
+              </p>
             </div>
             <div>
               <img
@@ -61,16 +78,22 @@ function Web() {
               />
             </div>
             <div className="webtext">
-              <p>프로젝트명: 성형외과 사이트 (항해언니)</p>
-              <p>제작기간: 2022년 12월 16일 ~ 2022년 12월 22일</p>
-              <p>참여인원: FE:3명 BE:3명</p>
               <p>
-                제작내용: 와이어프레임(기여도30%), 홈페이지 및 게시글 CRUD
-                기능(기여도80%) 댓글 CRUD기능 전반(기여도25%), 로그인 회원가입
-                및 회원가입 중복확인
+                <span>프로젝트명:</span> 성형외과 추천 커뮤니티-항해언니
               </p>
               <p>
-                제작스킬: 제작스킬: 피그마, 리액트(자바스크립트), CSS,
+                <span>제작기간:</span>2022. 12. 16 ~ 2022. 12. 22
+              </p>
+              <p>
+                <span>참여인원:</span> 총 6(FE:3명 BE:3명)명
+              </p>
+              <p>
+                <span>제작내용:</span> 와이어프레임(기여도30%), 홈페이지 및
+                게시글 CRUD 기능(기여도80%) 댓글 CRUD기능 전반(기여도25%),
+                로그인 회원가입 및 회원가입 중복확인
+              </p>
+              <p>
+                <span>제작스킬:</span> 피그마, 리액트(자바스크립트), CSS,
                 스타일드컴포넌트, 리액트툴킷, aioxs
               </p>
             </div>
@@ -128,6 +151,9 @@ const WebSetion = styled.section`
       font-size: 16px;
       font-weight: bold;
     }
+    span {
+      font-weight: bold;
+    }
   }
   .web2 {
     display: flex;
@@ -140,6 +166,9 @@ const WebSetion = styled.section`
         display: block;
         width: 500px;
         font-size: 16px;
+        font-weight: bold;
+      }
+      span {
         font-weight: bold;
       }
     }
