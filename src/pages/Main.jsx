@@ -47,7 +47,7 @@ function Main() {
 const Mainsection = styled.section`
   display: flex;
   width: 100%;
-  margin: 125px 0;
+  margin: 125px;
   .MainLeft {
     width: 370px;
     padding: 8% 2% 8% 2%;
