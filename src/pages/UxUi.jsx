@@ -110,6 +110,12 @@ function UxUi() {
               alt="배너7"
             />
           </div>
+          <div className="imgBox">
+            <img
+              src={`${process.env.PUBLIC_URL}/images/banner8.png`}
+              alt="배너8"
+            />
+          </div>
         </SlideSection>
       </Layout>
       <Footer />
