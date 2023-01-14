@@ -15,7 +15,7 @@ function UxUi() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3500,
   };
   return (
     <>
@@ -110,7 +110,7 @@ function UxUi() {
               alt="배너7"
             />
           </div>
-          <div className="imgBox">
+          <div className="imgBox2">
             <img
               src={`${process.env.PUBLIC_URL}/images/banner8.png`}
               alt="배너8"
