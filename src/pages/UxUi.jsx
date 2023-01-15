@@ -46,8 +46,8 @@ function UxUi() {
               <p className="span">
                 *왼쪽 사진은 자체 기획한 문구류 브랜드 펜스팅 목업입니다
               </p>
-              <p>
-                <span className="span">사이트 주소</span>
+              <p className="span">
+                <span>사이트 주소</span>
                 <a href="https://kimjin2.github.io/pensting2/# ">사이트 보기</a>
               </p>
             </div>
@@ -61,8 +61,8 @@ function UxUi() {
               <p className="span">
                 *오른쪽 사진은 할리스 커피를 리뉴얼한 사진입니다.
               </p>
-              <p>
-                <span className="span">사이트 주소</span>
+              <p className="span">
+                <span>사이트 주소</span>
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
               </p>
             </div>
@@ -245,7 +245,7 @@ const SlideSection = styled(Slider)`
     }
   }
   .imgBox2 {
-    width: 700px;
+    width: 800px;
     height: 1000px;
     padding: 0% 10% 0% 10%;
     box-sizing: border-box;
