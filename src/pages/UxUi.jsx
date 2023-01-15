@@ -188,7 +188,7 @@ const UxUiSetion = styled.section`
     }
     .span {
       display: block;
-      width: 500px;
+      width: 100%
       font-size: 16px;
       font-weight: bold;
     }
@@ -207,12 +207,11 @@ const UxUiSetion = styled.section`
           text-align: center;
           color: black;
           text-decoration: none;
-          padding-left: 1%;
         }
       }
       .span {
         display: block;
-        width: 500px;
+        width: 100%;
         font-size: 16px;
         font-weight: bold;
       }
@@ -235,23 +234,23 @@ const SlideSection = styled(Slider)`
   border-bottom: 1px solid black;
   width: 100%;
   .imgBox {
-    width: 1200px;
+    width: 1000px;
     height: 700px;
     padding: 5% 10% 5% 10%;
     box-sizing: border-box;
     img {
-      width: 80%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
     }
   }
   .imgBox2 {
     width: 800px;
-    height: 1000px;
+    height: 700px;
     padding: 0% 10% 0% 10%;
     box-sizing: border-box;
     img {
-      width: 80%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
     }
   }
 `;
