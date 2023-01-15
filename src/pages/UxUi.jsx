@@ -179,6 +179,7 @@ const UxUiSetion = styled.section`
     font-weight: 400;
     p {
       a {
+        display: block;
         text-align: center;
         color: black;
         text-decoration: none;
@@ -202,6 +203,7 @@ const UxUiSetion = styled.section`
       font-weight: 400;
       p {
         a {
+          display: block;
           text-align: center;
           color: black;
           text-decoration: none;
@@ -238,18 +240,18 @@ const SlideSection = styled(Slider)`
     padding: 5% 10% 5% 10%;
     box-sizing: border-box;
     img {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
     }
   }
   .imgBox2 {
-    width: 500px;
-    height: 1500px;
+    width: 700px;
+    height: 1000px;
     padding: 0% 10% 0% 10%;
     box-sizing: border-box;
     img {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
     }
   }
 `;
