@@ -47,7 +47,7 @@ function UxUi() {
                 *왼쪽 사진은 자체 기획한 문구류 브랜드 펜스팅 목업입니다
               </p>
               <p className="span">
-                <span>사이트 주소</span>
+                <span>사이트 주소 :</span>
                 <a href="https://kimjin2.github.io/pensting2/# ">사이트 보기</a>
               </p>
             </div>
@@ -62,7 +62,7 @@ function UxUi() {
                 *오른쪽 사진은 할리스 커피를 리뉴얼한 사진입니다.
               </p>
               <p className="span">
-                <span>사이트 주소</span>
+                <span>사이트 주소 :</span>
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
               </p>
             </div>
@@ -177,20 +177,17 @@ const UxUiSetion = styled.section`
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    p {
+    .span {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
       a {
         display: block;
         text-align: center;
         color: black;
-        text-decoration: none;
-        padding-left: 1%;
+        padding: 2% 2%;
       }
-    }
-    .span {
-      display: block;
-      width: 100%
-      font-size: 16px;
-      font-weight: bold;
     }
   }
   .UxUi2 {
@@ -201,19 +198,17 @@ const UxUiSetion = styled.section`
       text-align: center;
       font-size: 18px;
       font-weight: 400;
-      p {
-        a {
-          display: block;
-          text-align: center;
-          color: black;
-          text-decoration: none;
-        }
-      }
       .span {
         display: block;
         width: 100%;
         font-size: 16px;
         font-weight: bold;
+        a {
+          display: block;
+          text-align: center;
+          color: black;
+          padding: 2% 2%;
+        }
       }
     }
     div {
