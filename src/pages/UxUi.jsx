@@ -181,6 +181,8 @@ const UxUiSetion = styled.section`
       a {
         text-align: center;
         color: black;
+        text-decoration: none;
+        padding-left: 1%;
       }
     }
     .span {
@@ -202,6 +204,8 @@ const UxUiSetion = styled.section`
         a {
           text-align: center;
           color: black;
+          text-decoration: none;
+          padding-left: 1%;
         }
       }
       .span {
