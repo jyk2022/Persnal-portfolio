@@ -177,6 +177,12 @@ const UxUiSetion = styled.section`
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    p {
+      a {
+        text-align: center;
+        color: black;
+      }
+    }
     .span {
       display: block;
       width: 500px;
@@ -192,6 +198,12 @@ const UxUiSetion = styled.section`
       text-align: center;
       font-size: 18px;
       font-weight: 400;
+      p {
+        a {
+          text-align: center;
+          color: black;
+        }
+      }
       .span {
         display: block;
         width: 500px;
@@ -227,8 +239,8 @@ const SlideSection = styled(Slider)`
     }
   }
   .imgBox2 {
-    width: 800px;
-    height: 1200px;
+    width: 500px;
+    height: 1500px;
     padding: 0% 10% 0% 10%;
     box-sizing: border-box;
     img {
