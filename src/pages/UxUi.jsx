@@ -217,7 +217,7 @@ const SlideSection = styled(Slider)`
   border-bottom: 1px solid black;
   width: 100%;
   .imgBox {
-    width: 1000px;
+    width: 1200px;
     height: 700px;
     padding: 5% 10% 5% 10%;
     box-sizing: border-box;
@@ -227,8 +227,8 @@ const SlideSection = styled(Slider)`
     }
   }
   .imgBox2 {
-    width: 500px;
-    height: 1000px;
+    width: 800px;
+    height: 1200px;
     padding: 0% 10% 0% 10%;
     box-sizing: border-box;
     img {
