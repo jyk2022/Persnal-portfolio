@@ -47,7 +47,6 @@ function UxUi() {
                 *왼쪽 사진은 자체 기획한 문구류 브랜드 펜스팅 목업입니다
               </p>
               <p className="span">
-                <span>사이트 주소 :</span>
                 <a href="https://kimjin2.github.io/pensting2/# ">사이트 보기</a>
               </p>
             </div>
@@ -62,7 +61,6 @@ function UxUi() {
                 *오른쪽 사진은 할리스 커피를 리뉴얼한 사진입니다.
               </p>
               <p className="span">
-                <span>사이트 주소 :</span>
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
               </p>
             </div>
