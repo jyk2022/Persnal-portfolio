@@ -127,7 +127,13 @@ function UxUi() {
           <div className="imgBox2">
             <img
               src={`${process.env.PUBLIC_URL}/images/banner9.png`}
-              alt="배너8"
+              alt="배너9"
+            />
+          </div>
+          <div className="imgBox">
+            <img
+              src={`${process.env.PUBLIC_URL}/images/banner10.png`}
+              alt="배너10"
             />
           </div>
         </SlideSection>
