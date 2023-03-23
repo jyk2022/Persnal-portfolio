@@ -5,6 +5,10 @@ function Footer() {
   return (
     <>
       <Footers>
+        <img
+          src={`${process.env.PUBLIC_URL}/images/notion.jpg`}
+          alt="노트폴리오 배너"
+        />
         <h1> 자세한 포트폴리오 내용은 노션 페이지를 확인해주세요</h1>
         <p>
           노션포트폴리오 주소 ->
@@ -20,7 +24,6 @@ function Footer() {
 const Footers = styled.footer`
   display: block;
   width: 100%;
-  background-color: #c2c894;
   text-align: center;
   padding: 2% 2% 2% 2%;
   margin-top: 5%;

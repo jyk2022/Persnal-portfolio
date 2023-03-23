@@ -31,7 +31,7 @@ function UxUi() {
         <UxUiSetion>
           <h1 className="title">UX/UI 철학</h1>
           <article className="UxUi1">
-            <div>
+            <div className="UxUiImg">
               <img
                 src={`${process.env.PUBLIC_URL}/images/mokup1.png`}
                 alt="목업1"
@@ -72,7 +72,7 @@ function UxUi() {
                 </a>
               </p>
             </div>
-            <div>
+            <div className="UxUiImg">
               <img
                 src={`${process.env.PUBLIC_URL}/images/mokup2.png`}
                 alt="목업1"
@@ -80,7 +80,7 @@ function UxUi() {
             </div>
           </article>
           <article className="UxUi1">
-            <div>
+            <div className="UxUiImg">
               <img
                 src={`${process.env.PUBLIC_URL}/images/doit.jpg`}
                 alt="두잇서베이"
@@ -115,7 +115,7 @@ function UxUi() {
                 </a>
               </p>
             </div>
-            <div>
+            <div className="UxUiImg">
               <img
                 src={`${process.env.PUBLIC_URL}/images/roopTopCat.jpg`}
                 alt="옥냥이 월드"
@@ -216,7 +216,9 @@ const UxUiSetion = styled.section`
   }
   .UxUi1 {
     display: flex;
-
+    .UxUiImg {
+      padding: 2% 2%;
+    }
     div {
       width: calc(100% - 50%);
       :nth-child(2) {
@@ -228,7 +230,6 @@ const UxUiSetion = styled.section`
     }
   }
   .UxUitext {
-    padding: 10% 10%;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -247,8 +248,10 @@ const UxUiSetion = styled.section`
   }
   .UxUi2 {
     display: flex;
+    .UxUiImg {
+      padding: 2% 2%;
+    }
     .UxUitext {
-      padding: 10% 10%;
       text-align: center;
       font-size: 18px;
       font-weight: 400;
