@@ -5,17 +5,13 @@ function Footer() {
   return (
     <>
       <Footers>
-        <img
-          src={`${process.env.PUBLIC_URL}/images/notion.jpg`}
-          alt="노트폴리오 배너"
-        />
         <h1> 자세한 포트폴리오 내용은 노션 페이지를 확인해주세요</h1>
-        <p>
-          노션포트폴리오 주소 ->
-          <a href="https://jykthink.notion.site/718813a9ba74444f8618148ad21079bc">
-            노션포트폴리오
-          </a>
-        </p>
+        <a href="https://jykthink.notion.site/718813a9ba74444f8618148ad21079bc">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/notion.jpg`}
+            alt="노트폴리오 배너"
+          />
+        </a>
       </Footers>
     </>
   );

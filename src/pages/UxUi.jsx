@@ -66,11 +66,9 @@ function UxUi() {
               <p className="span">
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
               </p>
-              <p className="span">
-                <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">
-                  디자인 소개
-                </a>
-              </p>
+              <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">
+                디자인 소개
+              </a>
             </div>
             <div className="UxUiImg">
               <img
@@ -233,6 +231,7 @@ const UxUiSetion = styled.section`
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding: 9%;
     .span {
       display: block;
       width: 100%;
@@ -255,6 +254,7 @@ const UxUiSetion = styled.section`
       text-align: center;
       font-size: 18px;
       font-weight: 400;
+      padding: 9%;
       .span {
         display: block;
         width: 100%;
