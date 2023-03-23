@@ -65,10 +65,10 @@ function UxUi() {
               </p>
               <p className="span">
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
+                <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">
+                  디자인 소개
+                </a>
               </p>
-              <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">
-                디자인 소개
-              </a>
             </div>
             <div className="UxUiImg">
               <img
@@ -214,9 +214,7 @@ const UxUiSetion = styled.section`
   }
   .UxUi1 {
     display: flex;
-    .UxUiImg {
-      padding: 2% 2%;
-    }
+
     div {
       width: calc(100% - 50%);
       :nth-child(2) {
@@ -247,9 +245,6 @@ const UxUiSetion = styled.section`
   }
   .UxUi2 {
     display: flex;
-    .UxUiImg {
-      padding: 2% 2%;
-    }
     .UxUitext {
       text-align: center;
       font-size: 18px;
