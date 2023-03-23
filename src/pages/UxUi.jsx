@@ -48,6 +48,9 @@ function UxUi() {
               </p>
               <p className="span">
                 <a href="https://kimjin2.github.io/pensting2/# ">사이트 보기</a>
+                <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7f2b958-4a05-47e8-a6b5-35102de5fd71/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230323T114533Z&X-Amz-Expires=86400&X-Amz-Signature=11a3bbb9d078fd90ab4055353e4669c0eb4b922ca14d750a2374b4ea5be66fbb&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject">
+                  브랜드 기획 내용
+                </a>
               </p>
             </div>
           </article>
@@ -79,22 +82,22 @@ function UxUi() {
           <article className="UxUi1">
             <div>
               <img
-                src={`${process.env.PUBLIC_URL}/images/mokup1.png`}
-                alt="목업1"
+                src={`${process.env.PUBLIC_URL}/images/doit.jpg`}
+                alt="두잇서베이"
               />
             </div>
             <div className="UxUitext">
               <p>
-                부족함을 채워 나가는 노력
+                기본기를 생각하는
                 <br />
-                노력의 결실을 믿습니다
+                디자인을 만들겠습니다
               </p>
               <p className="span">
-                *왼쪽 사진은 설문조사 앱을 리디자인 한 것입니다.
+                *왼쪽 사진은 설문조사앱을 리디자인하였습니다
               </p>
               <p className="span">
                 <a href="https://jykthink.notion.site/a5e90095c3ab4601983b5a5853dfc12d">
-                  리디자인 소개
+                  디자인 소개
                 </a>
               </p>
             </div>
@@ -102,25 +105,20 @@ function UxUi() {
           <article className="UxUi2">
             <div className="UxUitext">
               <p>
-                프로덕트가 집중될 수 있도록 <br />
-                디자인을 신경 쓰겠습니다
+                사용자 입장에서 <br />
+                디자인을 생각하겠습니다
               </p>
+              <p className="span">*오른쪽은 랜딩페이지 기획 결과물입니다.</p>
               <p className="span">
-                *오른쪽 사진은 랜딩페이지를 기획한 것입니다.
-              </p>
-              <p className="span">
-                <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
-              </p>
-              <p className="span">
-                <a href="https://jykthink.notion.site/393675f541544a4f8d5d5aaa1dc62af7">
+                <a href="https://jykthink.notion.site/393675f541544a4f8d5d5aaa1dc62af7 ">
                   디자인 소개
                 </a>
               </p>
             </div>
             <div>
               <img
-                src={`${process.env.PUBLIC_URL}/images/mokup2.png`}
-                alt="목업1"
+                src={`${process.env.PUBLIC_URL}/images/roopTopCat.jpg`}
+                alt="옥냥이 월드"
               />
             </div>
           </article>
@@ -249,7 +247,6 @@ const UxUiSetion = styled.section`
   }
   .UxUi2 {
     display: flex;
-    margin-bottom: 5%;
     .UxUitext {
       padding: 10% 10%;
       text-align: center;
@@ -285,6 +282,7 @@ const SlideSection = styled(Slider)`
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 100%;
+  padding: 5% 5%;
   .imgBox {
     width: 1000px;
     height: 700px;
@@ -292,7 +290,6 @@ const SlideSection = styled(Slider)`
     box-sizing: border-box;
     img {
       width: 100%;
-      height: 100%;
     }
   }
   .imgBox2 {
