@@ -63,6 +63,59 @@ function UxUi() {
               <p className="span">
                 <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
               </p>
+              <p className="span">
+                <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">
+                  디자인 소개
+                </a>
+              </p>
+            </div>
+            <div>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/mokup2.png`}
+                alt="목업1"
+              />
+            </div>
+          </article>
+          <article className="UxUi1">
+            <div>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/mokup1.png`}
+                alt="목업1"
+              />
+            </div>
+            <div className="UxUitext">
+              <p>
+                부족함을 채워 나가는 노력
+                <br />
+                노력의 결실을 믿습니다
+              </p>
+              <p className="span">
+                *왼쪽 사진은 설문조사 앱을 리디자인 한 것입니다.
+              </p>
+              <p className="span">
+                <a href="https://jykthink.notion.site/a5e90095c3ab4601983b5a5853dfc12d">
+                  리디자인 소개
+                </a>
+              </p>
+            </div>
+          </article>
+          <article className="UxUi2">
+            <div className="UxUitext">
+              <p>
+                프로덕트가 집중될 수 있도록 <br />
+                디자인을 신경 쓰겠습니다
+              </p>
+              <p className="span">
+                *오른쪽 사진은 랜딩페이지를 기획한 것입니다.
+              </p>
+              <p className="span">
+                <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
+              </p>
+              <p className="span">
+                <a href="https://jykthink.notion.site/393675f541544a4f8d5d5aaa1dc62af7">
+                  디자인 소개
+                </a>
+              </p>
             </div>
             <div>
               <img
