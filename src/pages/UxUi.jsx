@@ -55,14 +55,13 @@ function UxUi() {
                                 프로덕트가 집중될 수 있도록 <br />
                                 디자인을 신경 쓰겠습니다
                             </p>
-                            <p className="span">*오른쪽 사진은 할리스 커피를 리뉴얼한 사진입니다.</p>
+                            <p className="span">*오른쪽 사진은 지역화폐 동백전 앱에 대한 소개입니다.</p>
                             <p className="span">
-                                <a href="https://kimjin2.github.io/hollys/ ">사이트 보기</a>
-                                <a href="https://jykthink.notion.site/49817d9c700446ca9bc4b1d0af24d040 ">디자인 소개</a>
+                                <a href="https://jykthink.notion.site/985c8c505b934256a806606c27a42538 ">디자인 소개</a>
                             </p>
                         </div>
                         <div className="UxUiImg">
-                            <img src={`${process.env.PUBLIC_URL}/images/mokup2.png`} alt="목업1" />
+                            <img src={`${process.env.PUBLIC_URL}/images/mokup3.jpg`} alt="동백전앱" />
                         </div>
                     </article>
                     <article className="UxUi1">
