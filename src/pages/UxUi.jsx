@@ -32,18 +32,17 @@ function UxUi() {
                     <h1 className="title">UX/UI 철학</h1>
                     <article className="UxUi1">
                         <div className="UxUiImg">
-                            <img src={`${process.env.PUBLIC_URL}/images/mokup1.png`} alt="목업1" />
+                            <img src={`${process.env.PUBLIC_URL}/images/Untitled.png`} alt="목업1" />
                         </div>
                         <div className="UxUitext">
                             <p>
-                                부족함을 채워 나가는 노력
+                                나의 주변의 관찰을 통해
                                 <br />
-                                노력의 결실을 믿습니다
+                                익숙함을 새로움으로 디자인합니다
                             </p>
-                            <p className="span">*왼쪽 사진은 자체 기획한 문구류 브랜드 펜스팅 목업입니다</p>
+                            <p className="span">*왼쪽 사진은 기획한 패션앱에 대한 소개입니다.</p>
                             <p className="span">
-                                <a href="https://kimjin2.github.io/pensting2/# ">사이트 보기</a>
-                                <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7f2b958-4a05-47e8-a6b5-35102de5fd71/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230323T114533Z&X-Amz-Expires=86400&X-Amz-Signature=11a3bbb9d078fd90ab4055353e4669c0eb4b922ca14d750a2374b4ea5be66fbb&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject">
+                                <a href="https://jykthink.notion.site/442fbdffab5c4a23a126d2d61c774361">
                                     브랜드 기획 내용
                                 </a>
                             </p>
