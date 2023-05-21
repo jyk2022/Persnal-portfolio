@@ -42,9 +42,7 @@ function UxUi() {
                             </p>
                             <p className="span">*왼쪽 사진은 기획한 패션앱에 대한 소개입니다.</p>
                             <p className="span">
-                                <a href="https://jykthink.notion.site/442fbdffab5c4a23a126d2d61c774361">
-                                    브랜드 기획 내용
-                                </a>
+                                <a href="https://jykthink.notion.site/442fbdffab5c4a23a126d2d61c774361">디자인 소개</a>
                             </p>
                         </div>
                     </article>
